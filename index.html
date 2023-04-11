@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta htttp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        kc PortFolio
+    </title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <!--header design -->
+    <header class="header">
+        <a href="#" class="logo">PortFolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
+            <a href="#langauge">Langauge</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+   <!--Home design-->
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, it's Me</h3>
+            <h1>Kunal Chaudhari</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Post Graduate Student | Looking for opportunities in C++, Python, HTML, CSS, PHP, MYsql as a Developer.
+            </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/kunal-chaudhari32370/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/kckingpc"><i class='bx bxl-github'></i></i></a>
+                <a href="https://www.instagram.com/kc_king2000/"><i class='bx bxl-instagram-alt' ></i></a>
+                
+                <a href="https://www.facebook.com/kapilchaudhari123/"><i class='bx bxl-facebook'></i></a>
+                
+            </div>
+            <a href="kunalchaudhari resume1.pdf" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="cutout1.png" alt=""  >
+        </div>
+
+    </section>
+<!--     about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="sitting1.jpg" alt="" >
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span> Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>As a recent Post graduate from D. Y. PATIL INSTITUTE OF MASTER OF COMPUTER APPLICATIONS with a  Masters of Computer Applications  , I am extremely interested in the Software Developer opportunity 
+                 I applied a strong focus on building my software development and programming abilities. I am detail-oriented and meticulous when managing competing priorities within tight deadlines. I have been majorly focusing on my development on languages such as HTML,CSS,PHP,MYSQL,C,C++ & PYTHON.
+                </p>
+                <a href="#" class="btn">Read more</a>
+        </div>
+
+    </section>
+
+<!--     project section    -->
+
+<sction  class="project" id="project">
+    <h2 class="heading"><br>My <span>Project</span></h2>
+    
+    <div class="project-container">
+        <div class="project-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>Blood Bank</h3><br>
+            <h4>using HTML, CSS, PHP & MYsql</h4>
+            <p>
+                The main aim of this project is to save lives of people by providing blood.
+                Our project Online Blood Donation Management System using is developed so that users can view the information of  near by hospitals, blood banks and volunteer donors.
+                Project is developed by four perspectives i.e. hospital, blood bank, volunteer donors and patient.
+                
+            </p>
+            <a href="bloodbank.html" class="btn">Read More</a>
+        </div>
+        <div class="project-box">
+            <i class='bx bx-face'></i>
+            <h3>Smart attendance</h3>
+                <br>
+            <h4>Using HTML, CSS, PYTHON(CNN Model) & SQLlite</h4>
+            <p>
+                
+            This project involves an attendance system using facial recognition to mark the presence, time-in, and time-out of Students. It covers areas such as facial detection, along with the development of a web application to cater to various use cases of the system such as registration of new Students, viewing attendance reports, etc.
+
+            </p>
+            <a href="smartattendace.html" class="btn">Read More</a>
+            
+        </div>
+    </div>
+</sction>
+
+<!-- langauge details -->
+
+<sction class="langauge" id="langauge">
+    <h2 class="heading"><br>Known <Span>Langauge</Span></h2>
+    <div class="lg1">
+        <div class="html">
+            
+            <h3>HTML</h3>
+            <i class='bx bxl-html5'></i>
+        </div>
+        <div class="css">
+            <h3>CSS</h3>
+            <i class='bx bxl-css3' ></i>
+        </div>
+        <div class="php">
+            <h3>PHP</h3>
+            <i class='bx bxl-php' ></i>
+        </div>
+    </div>
+
+    <div class="lg1">
+        <div class="html">    
+            <h3>C++</h3>
+            <i class='bx bxl-c-plus-plus' ></i>
+        </div>
+        <div class="css">
+    
+            <h3>PYTHON</h3>
+            <i class='bx bxl-python' ></i>
+        </div>
+        <div class="php">
+            <h3>MYsql</h3>
+            <i class='bx bxs-data' ></i>
+        </div>
+
+    </div>
+</sction>
+<!--contact details -->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Us</span></h2>
+   
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname"><h1>First Name</h1></label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname"><h1>Last Name</h1></label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          
+      
+          <label for="subject"><h1>Subject</h1></label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+      
+          
+          <a href="#" class="btn">submit</a>
+        </form>
+      </div>
+
+</section>
+
+<footer class="footer" id="footer">
+    <h2>Thank You.</h2>
+    <h2>© kunalchaudhari32370@gmail.com</h2>
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
